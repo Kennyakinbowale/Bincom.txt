@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="icon" href="./images/kenny.png.png" type="images/icon" />
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <div>HOME</div>
+        <div>ABOUT</div>
+        <div>SERVICES</div>
+        <div>PORTFOLIO</div>
+        <div>PRICING</div>
+        <div>BLOG</div>
+        <div>PAGES</div>
+        <div>CONTACT</div>
+      </div>
+    </nav>
+    <section class="body">
+      <div class="summary">
+        <div class="left">
+          <img
+            src="./images/profilepix.jpeg"
+            alt="Kenny's profile picture"
+            width="300px"
+            height="300px"
+            style="border-radius: 50%"
+            style="margin-top: 40px"
+          />
+        </div>
+        <h1>Kehinde Akinbowale</h1>
+        <h2>Front-end Web-developer</h2>
+        <div class="paragraph">
+          <p style="text-indent: 0%">
+            Smart, tech-enthusiast and dedicated graduate, with a strong passion
+            for web development, with active practice and engagement in HTML,
+            CSS and JAVASCRIPT. Familiar with object-oriented programming and
+            development concepts. Wrote and debugged clean code for various
+            projects at an entry level in numerous programming language such as
+            C, C++ and python.
+          </p>
+        </div>
+        <div class="cv">
+          <p>Download CV</p>
+        </div>
+      </div>
+    </section>
+    <section class="tools">
+      <h1 style="position: relative; left: 550px">About me</h1>
+      <p style="width: 80%; position: relative; left: 190px; text-align: center;">I'm Kenny..A freelance frontend-web-developer for 2years+ experience. 
+        Worked with over 90 projects on the ALX- software engineering programme and still currently 
+        outsourcing codes for other clients in small scale businesses</p>
+        <h1 style="text-align: center; margin-top:50px; position: relative; left: 520px; text-align: center;">Web design</h1>
+      <div class="container">
+        <div class="box">
+            <div class="html">
+              <img src="./images/My project.png" alt="html logo" width="200" height="200px"/>
+              <p style="font: weight 500px;text-align: justify;">
+                Built a basic application website using varieties of HTML forms
+                and tables where users can simply enter their details (of any
+                data type) for any process of application
+              </p>
+              <p style="font: weight 500px;text-align: justify;"">
+                Designed and implemented various HTML semantics in the structure
+                of a Web-layout
+              </p>
+            </div>
+          <div class="css">
+            <img src="images/My project (1).png" alt="css logo" width="200px" height="200px"/>
+            <p style="font: weight 500px;text-align: justify;">
+              Styling different web contents and creating a basic web layout
+              using the CSS flex-box and CSS grid
+            </p>
+            <p style="font: weight 500px;text-align: justify;">
+              Adopted various CSS styling techniques along with the javascript
+              bootstrap framework in designing web-pages
+            </p>
+          </div>
+          <div class="Javascript">
+            <img src="./images/javascript2.png" alt="javascript logo" width="200px" height="200px">
+            <p style="font: weight 500px;text-align: justify;">
+              Writing and Attaching side-server web scripts using the JavaScript
+              programming language for the completion or carrying out a task at
+              the server-end.
+            </p>
+            <p style="font: weight 500px;text-align: justify;">
+              Access and Manipulate various HTML elements using the JavaScript
+              Document object Manipulation (DOM)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
